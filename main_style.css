@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main_div{
+    height: 900px;
+    width: 600px;
+    background-color: #556b2f;
+    margin: auto;
+    position: relative;
+}
+.sub_main_div{
+    height: 850px;
+    width: 550px;
+    background-color: #6c9426;
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 20px;
+    border: 5px solid white;
+    
+}
+.middle_line{
+    padding-top: 50%;
+    padding-bottom: 25%;
+    border-bottom: 5px solid white;
+
+}
+.TopCBox{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    border: 3px solid white;
+    position: absolute;
+    top: 0;
+    left: 200px;
+    
+}
+.ButtomCBox{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    border: 3px solid white;
+    position: absolute;
+    bottom: 0;
+    right: 200px;
+}
+
+.TopLBox{
+    height: 100px;
+    width: 200px;
+    background-color: #6c9426;
+    border: 3px solid white;
+    position: absolute;
+    top: 0;
+    left: 175px;
+}
+.ButtomLBox{
+    height: 100px;
+    width: 200px;
+    background-color: #6c9426;
+    border: 3px solid white;
+    position: absolute;
+    bottom: 0;
+    right: 175px;
+}
+.ButtomSBox{
+    height: 50px;
+    width: 100px;
+    background-color: #6c9426;
+    border: 3px solid white;
+    position: absolute;
+    bottom: 0;
+    right: 225px;
+}
+.TopSBox{
+    height: 50px;
+    width: 100px;
+    background-color: #6c9426;
+    border: 3px solid white;
+    position: absolute;
+    top: 0;
+    left: 225px;
+}
+.middle_circle{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    border: 3px solid white;
+    position: absolute;
+    top: 340px;
+    left: 200px;
+}
+
+.Goalkiper img{
+    height: 70px;
+    width: 70px;
+    position: absolute;
+    top: 0;
+    left: 270px;
+}
+.PlayerTop img{
+    height: 70px;
+    width: 70px;
+    position: absolute;
+    top: 100px;
+    
+    
+}
+.Player_formation_top{
+   display: flex;
+   justify-content:space-evenly;    
+}
+
+.NameTop{
+    position: absolute;
+    top: 100px; 
+    background-color: black;
+    color: white;
+}
+.Player_formation_bottom{
+    display: flex;
+   justify-content:space-evenly; 
+}
+.Playerbottom img{
+    height: 70px;
+    width: 70px;
+    position: absolute;
+    bottom: 100px;
+}
+.Namebottom{
+    position: absolute;
+    bottom: 150px; 
+    background-color: black;
+    color: white;
+}
+.Player_formation_Middle{
+    display: flex;
+   justify-content:space-evenly; 
+}
+.PlayerMiddle img{
+    height: 70px;
+    width: 70px;
+    position: absolute;
+    bottom: 425px; 
+    
+}
+#Fernandez img{
+    bottom: 490px; 
+}
+#FernandezName{
+    bottom: 530px; 
+}
+.NameMiddle{
+    position: absolute;
+    bottom: 470px; 
+    background-color: black;
+    color: white;
+}
+
